@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zaycev.net_task_2</string>
+    <string name="enter_price">стоимость товара</string>
+    <string name="btnAdd">добавить</string>
+    <string name="etDiscount">процент скидки</string>
+    <string name="etOffset">№ позиции с которой нужно применить скидку</string>
+    <string name="etReadLength">кол-во позиций к которым нужно применить скидку</string>
+    <string name="btnApply">применить</string>
+    <string name="arrayPriceAfterDiscount">цены после скидки</string>
+    <string name="arrayPrice">цены до скидки</string>
+</resources>
