@@ -1,0 +1,2 @@
+rootProject.name = "Zaycev.net_task_2"
+include ':app'
