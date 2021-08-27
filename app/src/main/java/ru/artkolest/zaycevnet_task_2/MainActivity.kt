@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnApply: Button
     private lateinit var tvPriceAfterDiscount: TextView
     private val pricesList: ArrayList<Int> = ArrayList()
-    private val pricesAfterDiscount: ArrayList<Int> = ArrayList()
-    private var discount: Int = 1
+    private val pricesAfterDiscount: ArrayList<Float> = ArrayList()
+    private var discount: Float = 1f
     private var offset: Int? = 0
     private var readLength: Int = 1
 
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
     private fun validationDiscount(): Boolean {
         paintTextInBlack(etDiscount)
         if (etDiscount.text.toString().isEmpty()) return false
-        discount = etDiscount.text.toString().toInt()
+        discount = etDiscount.text.toString().toFloat()
         return when {
             discount > 99 -> {
                 showToast("скидка не может быть больше 99%")

@@ -87,7 +87,7 @@
             android:layout_gravity="center"
             android:autofillHints="enter price"
             android:hint="@string/etOffset"
-            android:textSize="@dimen/etTextSize"
+            android:textSize="13sp"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
